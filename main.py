@@ -13,7 +13,7 @@ def req(link):
 
 def scan(link):
     file = req(link).lower()
-    pattern = "rick"
+    pattern = "rickroll"
     if re.search(pattern,file):
         return True
     else:
